@@ -34,13 +34,7 @@ const Index = () => {
             <p className="text-lg text-white/60 mb-12 max-w-2xl mx-auto leading-relaxed">
               Passionate about artificial intelligence, data analytics, and building innovative solutions that make a difference.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="#projects" 
-                className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25"
-              >
-                View My Work
-              </a>
+            <div className="flex justify-center">
               <a 
                 href="https://www.linkedin.com/in/aryan-kumar-sql-python-data-analytics/" 
                 target="_blank"
@@ -145,42 +139,89 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Featured Projects
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Project placeholders - you can customize these */}
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Stock Market Analysis Project */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-400/30 transition-all duration-300 hover:transform hover:scale-105">
               <div className="h-40 bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-xl mb-4 flex items-center justify-center">
-                <span className="text-4xl">🤖</span>
+                <span className="text-4xl">📈</span>
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">AI Project 1</h3>
-              <p className="text-white/60 mb-4">Machine learning model for data analysis and prediction.</p>
-              <div className="flex space-x-2">
+              <h3 className="text-xl font-bold text-white mb-2">Stock Market Analysis</h3>
+              <p className="text-white/60 mb-4">Comprehensive analysis of stock market trends and patterns using Python and data visualization techniques.</p>
+              <div className="flex space-x-2 mb-4">
                 <span className="px-3 py-1 bg-purple-600/20 text-purple-400 rounded-full text-sm">Python</span>
-                <span className="px-3 py-1 bg-pink-600/20 text-pink-400 rounded-full text-sm">ML</span>
+                <span className="px-3 py-1 bg-pink-600/20 text-pink-400 rounded-full text-sm">Analytics</span>
               </div>
+              <a 
+                href="https://github.com/AryanPandey72/stock_market_analysis" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors duration-300"
+              >
+                View on GitHub →
+              </a>
             </div>
 
+            {/* Technical Store Sales Analysis */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-400/30 transition-all duration-300 hover:transform hover:scale-105">
               <div className="h-40 bg-gradient-to-br from-cyan-600/20 to-blue-600/20 rounded-xl mb-4 flex items-center justify-center">
-                <span className="text-4xl">📊</span>
+                <span className="text-4xl">🏪</span>
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Data Analytics Project</h3>
-              <p className="text-white/60 mb-4">Comprehensive data analysis using SQL and Python.</p>
-              <div className="flex space-x-2">
+              <h3 className="text-xl font-bold text-white mb-2">Technical Store Sales Analysis</h3>
+              <p className="text-white/60 mb-4">Data-driven analysis of technical store sales patterns and customer behavior insights.</p>
+              <div className="flex space-x-2 mb-4">
                 <span className="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm">SQL</span>
                 <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-sm">Analytics</span>
               </div>
+              <a 
+                href="https://github.com/AryanPandey72/technical_store_sales_analysis" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors duration-300"
+              >
+                View on GitHub →
+              </a>
             </div>
 
+            {/* Music Store SQL Analysis */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-400/30 transition-all duration-300 hover:transform hover:scale-105">
               <div className="h-40 bg-gradient-to-br from-green-600/20 to-emerald-600/20 rounded-xl mb-4 flex items-center justify-center">
-                <span className="text-4xl">🧠</span>
+                <span className="text-4xl">🎵</span>
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Deep Learning Model</h3>
-              <p className="text-white/60 mb-4">Neural network implementation for complex problem solving.</p>
-              <div className="flex space-x-2">
-                <span className="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm">AI</span>
-                <span className="px-3 py-1 bg-emerald-600/20 text-emerald-400 rounded-full text-sm">Deep Learning</span>
+              <h3 className="text-xl font-bold text-white mb-2">Music Store SQL Analysis</h3>
+              <p className="text-white/60 mb-4">SQL-based analysis of music store database for business intelligence and insights.</p>
+              <div className="flex space-x-2 mb-4">
+                <span className="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm">SQL</span>
+                <span className="px-3 py-1 bg-emerald-600/20 text-emerald-400 rounded-full text-sm">Database</span>
               </div>
+              <a 
+                href="https://github.com/AryanPandey72/Music_SQL" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors duration-300"
+              >
+                View on GitHub →
+              </a>
+            </div>
+
+            {/* Resume Parser */}
+            <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-400/30 transition-all duration-300 hover:transform hover:scale-105">
+              <div className="h-40 bg-gradient-to-br from-orange-600/20 to-red-600/20 rounded-xl mb-4 flex items-center justify-center">
+                <span className="text-4xl">📄</span>
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2">Resume Parser</h3>
+              <p className="text-white/60 mb-4">AI-powered resume parsing tool that extracts and structures information from resumes.</p>
+              <div className="flex space-x-2 mb-4">
+                <span className="px-3 py-1 bg-orange-600/20 text-orange-400 rounded-full text-sm">Python</span>
+                <span className="px-3 py-1 bg-red-600/20 text-red-400 rounded-full text-sm">AI</span>
+              </div>
+              <a 
+                href="https://github.com/AryanPandey72/Resume-Parser" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors duration-300"
+              >
+                View on GitHub →
+              </a>
             </div>
           </div>
         </div>
@@ -215,7 +256,7 @@ const Index = () => {
       <footer className="py-8 px-6 border-t border-white/10">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-white/60">
-            © 2024 Aryan Kumar. Crafted with passion for AI and Machine Learning.
+            Crafted with passion for AI and Machine Learning.
           </p>
         </div>
       </footer>
